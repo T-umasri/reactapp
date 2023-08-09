@@ -4,7 +4,7 @@ import axios from 'axios';
 function Updform(props) {
     var updt=props.std;
     var id = props.id;
-    console.log(updt);   
+    console.log('updt');   
   return (
     <div>
         <Formik
